@@ -1,4 +1,28 @@
-div#slideshow { position: relative; background: #000; overflow: hidden; } 
-figure#imagestrip, div#slideshow { box-sizing: border-box; } 
-div#slideshow, figure#imagestrip img { width: 500px; height: 400px; float: left; } 
-figure#imagestrip { position: absolute; width: 2000px; margin: 0; } 
+*{margin:0;padding:0;}
+
+div#slideshow {
+    position: relative;
+    background: #000;
+    overflow: hidden;
+
+}
+
+figure#imagestrip, div#slideshow {
+    box-sizing: border-box;
+}
+
+div#slideshow, figure#imagestrip img {
+    width: 500px;
+    height: 400px;
+    float: left;
+}
+
+/*div#slideshow{*/
+    /*width:2000px;*/
+/*}*/
+
+figure#imagestrip {
+    position: absolute;
+    width: 2000px;
+    margin: 0;
+}

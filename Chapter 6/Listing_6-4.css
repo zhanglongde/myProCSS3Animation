@@ -1,1 +1,1 @@
-figure#imagestrip { animation: slider 10s infinite; } 
+figure#imagestrip { animation: slider 10s ease infinite; }
