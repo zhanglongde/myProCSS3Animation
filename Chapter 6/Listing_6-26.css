@@ -23,16 +23,17 @@
     }
 }
 
-dd:target {
+/*目标伪类，也必须考虑优先级*/
+dl#gallery dd:target {
     visibility: visible;
     background: rgba(0, 0, 0, 0.6);
     transition: 2s background linear;
 }
 
-dd:target a {
+dl#gallery dd:target a {
     box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.3);
 }
 
-dd:target a img {
+dl#gallery dd:target a img {
     animation: blowup 3s forwards;
 }
